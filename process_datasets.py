@@ -3,13 +3,13 @@ import pandas as pd
 file_names = ['data/lfqa/test.csv', 'data/lfqa/train.csv', 'data/lfqa/val.csv']
 
 tokens = {
-    'context_token': '<context>',
-    'question_token': '<question>',
-    'issues_token': '<issues>',
-    'rules_token': '<rules>',
-    'analysis_token': '<analysis>',
-    'answer_token': '<answer>',
-    'end_token': '<end>'
+    'context_token': 'context: ',
+    'question_token': 'question: ',
+    'issues_token': 'issues: ',
+    'rules_token': 'rules: ',
+    'analysis_token': 'analysis: ',
+    'answer_token': 'answer: ',
+    'end_token': '<|endoftext|>'
 }
 
 
