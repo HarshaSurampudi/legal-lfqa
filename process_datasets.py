@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_names = ['data/test.csv', 'data/train.csv', 'data/val.csv']
+file_names = ['data/lfqa/test.csv', 'data/lfqa/train.csv', 'data/lfqa/val.csv']
 
 tokens = {
     'context_token': '<context>',
